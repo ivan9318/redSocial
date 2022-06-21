@@ -86,10 +86,54 @@ li.cen a:hover{
     border: 1px solid #999;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
     outline: none;
+    background-color: #fff;
 }
 /* remove default arrow in IE */
 select::-ms-expand {
     display:none;
 }
 /*Iniciamos tablas con temas buscados*/
-
+.grid-container{
+    display: grid;
+    width: 80rem;
+    padding: 40px;
+    grid-template-columns: auto auto;
+}
+.card1{
+    grid-column: 1/1;
+    
+    color: #111;
+    padding: 20px;
+   color: #ddd;
+}
+.card2{
+    grid-column: 2/3;
+    color: #111;
+    padding: 20px;
+   color: #ddd;
+}
+.card3{
+    grid-column: 3/3;
+    color: #111;
+    padding: 20px;
+color: #ddd;
+}
+.card4{
+    grid-column: 1/1;
+    
+    color: #111;
+    padding: 20px;
+   color: #ddd;
+}
+.card5{
+    grid-column: 2/3;
+    color: #111;
+    padding: 20px;
+   color: #ddd;
+}
+.card6{
+    grid-column: 3/3;
+    color: #111;
+    padding: 20px;
+color: #ddd;
+}
